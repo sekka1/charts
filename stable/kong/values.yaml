@@ -56,7 +56,7 @@ proxy:
     enabled: false
     servicePort: 8000
     containerPort: 8000
-    nodePort: 32080
+    # nodePort: 32080
 
   # HTTPS traffic on the proxy port
   tls:
@@ -64,7 +64,7 @@ proxy:
     enableTlsOffload: false
     servicePort: 8443
     containerPort: 8443
-    nodePort: 32443
+    # nodePort: 32443
 
   type: NodePort
 
