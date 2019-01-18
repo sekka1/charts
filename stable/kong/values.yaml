@@ -61,6 +61,7 @@ proxy:
 
   tls:
     enabled: true
+    enableTlsOffload: true
     servicePort: 443
     containerPort: 8443
     # Set a nodePort which is available if service type is NodePort
